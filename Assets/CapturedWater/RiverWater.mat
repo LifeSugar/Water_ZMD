@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RiverWater
+  m_Shader: {fileID: 4800000, guid: ae601647c7bdbda4ead6955719fe9cdf, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticsMap:
+        m_Texture: {fileID: 2800000, guid: f3bfebc7ccc58474f8e2a2d286d294b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 9fec1ce3b75a3414796babb60ddef01b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RiverbedDepth:
+        m_Texture: {fileID: 2800000, guid: e9cb0b3aaed3d7f4b90b2cf6a07eb124, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormals:
+        m_Texture: {fileID: 18700000, guid: 65bc9d63e577bcc4ba4f99c9635c3678, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AbsorptionDistance: 2.5
+    - _CausticsStrength: 0.85
+    - _DetailPattern: 0
+    - _DetailStrength: 0.4
+    - _DetailTiling: 0.03
+    - _FlowSpeed: 3.8
+    - _FoamStrength: 0.58
+    - _FoamWidth: 0.32
+    - _ReflectionDistance: 32
+    - _RefractionStrength: 0.73
+    - _Smoothness: 0.88
+    - _WaveStrength: 0.35
+    - _WaveTiling: 0.04
+    m_Colors:
+    - _DeepColor: {r: 0.21999997, g: 0.38999996, b: 0.33999997, a: 1}
+    - _TransmissionColor: {r: 0.53999996, g: 0.78999996, b: 0.74, a: 1}
+  m_BuildTextureStacks: []
